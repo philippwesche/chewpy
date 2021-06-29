@@ -41,6 +41,6 @@ A quick live demo of the Perl port can be found at http://chewlang.com
 
 # Dependencies
 * Perl 5 (earlier versions untested)
-* Python 3.7 (other Python versions untested)
 * Getopt::Long
-* LWP >=5.64 (if reading from http(s))
+* Python 3.7 (other Python versions untested)
+* Python libraries requests, urllib.request, re
