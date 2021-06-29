@@ -1,6 +1,6 @@
 **Chew** or **chewlang** is intended to be a high-level programming language and code generator with heavy emphasis on regular expressions and anticipated use in data scraping.
 
-It currently compiles down to Perl5.
+This port compiles down to Python 3.
 
 Design priorities:
 * Short, readable code
@@ -9,7 +9,7 @@ Design priorities:
 * Experimental introduction of "contexts" to replace/unify flow control and parameters
 
 # Online demo
-A quick live demo can be found at http://chewlang.com
+A quick live demo of the Perl port can be found at http://chewlang.com
 
 # Syntax
 ## Obligatory statements
@@ -41,5 +41,6 @@ A quick live demo can be found at http://chewlang.com
 
 # Dependencies
 * Perl 5 (earlier versions untested)
+* Python 3.7 (other Python versions untested)
 * Getopt::Long
 * LWP >=5.64 (if reading from http(s))
